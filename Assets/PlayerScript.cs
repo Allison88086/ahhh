@@ -24,6 +24,10 @@ public class PlayerControl : MonoBehaviour //playercontrol inherits from monobeh
             jumpable = true;
         } 
         //rb.AddForce(new Vector2(0, 500));
+        //if (collision.gameObject.CompareTag("Gem"))
+        //{
+
+        //}
     }
     void OnCollisionExit2D(Collision2D collision)
     {
